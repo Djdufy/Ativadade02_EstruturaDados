@@ -18,7 +18,7 @@ dados coletados. Este exercício visa proporcionar uma compreensão mais profund
 implementação dos algoritmos de ordenação, mas também sobre o impacto das características do
 hardware e do sistema operacional nos resultados obtidos.
 
-### Características do computador:
+### ● Características do computador:
 
 - Marca: Lenovo
 
@@ -85,7 +85,7 @@ Audio (alto-falantes):
 - Lenovo Vantage, Lenovo App Explorer, Lenovo ID
 
 
-## Codigo:
+## ● Codigo:
 
 
 import java.io.BufferedReader;
@@ -418,7 +418,7 @@ public class Atividade_02 {
     
 }
 
-## Tabelas 
+## ● Tabelas 
 
 ![Captura de tela 2024-02-27 235245](https://github.com/Djdufy/Ativadade02_EstruturaDados/assets/103465904/42d719a8-3c4c-40e7-a80c-a88236fcdc80)
 
@@ -428,7 +428,7 @@ public class Atividade_02 {
 ![Captura de tela 2024-02-27 235311](https://github.com/Djdufy/Ativadade02_EstruturaDados/assets/103465904/f661af59-007c-4ef6-92b4-470336b7bd14)
 
 
-## Codigo sendo Executado
+## ● Codigo sendo Executado
 
 
 ![Captura de tela 2024-02-27 235601](https://github.com/Djdufy/Ativadade02_EstruturaDados/assets/103465904/337eb028-8670-4a87-ab89-c28255569a7f)
@@ -438,4 +438,33 @@ public class Atividade_02 {
 ![Captura de tela 2024-02-27 235651](https://github.com/Djdufy/Ativadade02_EstruturaDados/assets/103465904/c00a4fc3-cec0-4450-bf60-ada16eaef5fc)
 
 ![Captura de tela 2024-02-27 235704](https://github.com/Djdufy/Ativadade02_EstruturaDados/assets/103465904/0bd79bb3-e612-4e13-8b52-5160720de35b)
+
+## ● Codigo para criação dos números em txt feito em python
+
+
+
+### Gerar números ordenados
+   
+    with open('vetor_ordenado.txt', 'w') as f:
+    for i in range(1, 1000001):
+        f.write(str(i) + '\n')
+
+### Gerar números invertidos
+
+    with open('vetor_invertido.txt', 'w') as f:
+    for i in range(1000000, 0, -1):
+        f.write(str(i) + '\n')
+
+### Gerar números aleatórios
+
+    with open('vetor_aleatorio.txt', 'w') as f:
+    for _ in range(1000000):
+        f.write(str(random.randint(1, 1000000)) + '\n')
+   
+
+   
+    
+    
+
+
 
