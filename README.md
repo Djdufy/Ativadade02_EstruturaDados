@@ -52,6 +52,7 @@ hardware e do sistema operacional nos resultados obtidos.
 - Formato de Tela: 16:9 widescreen
 - Brilho da Tela: 250 nits
 - Tipo de Painel: TN
+
 - Abertura de Tela: 180 graus
 
 ● Conectividade:
@@ -85,15 +86,13 @@ Audio (alto-falantes):
 - Lenovo Vantage, Lenovo App Explorer, Lenovo ID
 
 
-## ● Codigo:
+## ● Codigo Java:
 
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-
-public class Atividade_02 {
- public static void main(String[] args) {
+        import java.io.BufferedReader;
+        import java.io.FileReader;
+        import java.io.IOException;
+        public class Atividade_02 {
+        public static void main(String[] args) {
     
         int[] vetorOrdenado = lerVetor("vetor_ordenado.txt");
         int[] vetorInvertido = lerVetor("vetor_invertido.txt");
