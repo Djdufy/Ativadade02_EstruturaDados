@@ -85,7 +85,7 @@ Audio (alto-falantes):
 ● Softwares:
 - Lenovo Vantage, Lenovo App Explorer, Lenovo ID
 
-## ● Tabela comparativas
+## ● Tabela comparativa dos algoritmos
 
 ![Captura de tela 2024-02-27 235245](https://github.com/Djdufy/Ativadade02_EstruturaDados/assets/103465904/42d719a8-3c4c-40e7-a80c-a88236fcdc80)
 
